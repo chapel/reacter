@@ -14,6 +14,9 @@ It has an optional opt-in dynamic jsx transformer through require.extensions, th
 
 var Reacter = require('reacter');
 
+// Call this to add jsx transformation to require
+Reacter.addExtension();
+
 var component = Reacter.require('./component');
 
 component('foo');
