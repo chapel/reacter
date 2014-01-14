@@ -7,7 +7,7 @@ A simple wrapper around React to allow for easy compiling of React components.
 
 It has an optional opt-in dynamic jsx transformer through require.extensions, this allows you to require jsx files directly but it is optional and you should compile your jsx files to pure js.
 
-# Usage
+### Usage
 
 ```js
 // index.js
