@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 var React = require('react');
 var transform = require('./transform');
 
@@ -40,6 +41,9 @@ function createRenderFn(classMod) {
 }
 
 function internalRequire(requirePath) {
+  var dirname = path.dirname(module.parent.filename);
+  requirePath = path.resolve(dirname, requirePath);
+
   var reactClass = CACHE[requirePath];
   if (reactClass) {
     return reactClass;
