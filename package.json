@@ -1,0 +1,19 @@
+{
+  "name": "reacter",
+  "version": "0.0.1",
+  "description": "Simple server-side React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Chapel <jacob.chapel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "envify": "~0.2.0",
+    "react": "~0.8.0",
+    "react-tools": "~0.8.0",
+    "jstransform": "~2.0.1",
+    "mkdirp": "~0.3.5",
+    "clone": "~0.1.11"
+  }
+}
